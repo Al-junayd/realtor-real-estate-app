@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Flex, Box, Text, Button } from "@chakra-ui/react";
 import Link from "next/link";
 import { baseUrl, fetchApi } from "../utils/fetchApi";
-import Property from "./components/Property";
+import Property from "../components/Property";
 
 const Banner = ({
   purpose,
